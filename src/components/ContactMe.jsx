@@ -2,17 +2,25 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <div className=" p-4 sm:p-20">
+    <div className="p-4 sm:p-20">
       <div className="">
         <div>
           <h1 className="text-2xl text-center font-bold">
             con<span className="underline underline-offset-4">tact m</span>e
           </h1>
 
-          <div className="flex justify-center mt-16 gap-24">
-            <img src="/linkedin.svg" alt="Linkedin" />
-            <img src="/instagram.png" alt="Insta" />
-            <img src="/github.svg" alt="github" />
+          <div className="flex justify-center mt-12 gap-24">
+            <a target="_blank" href="https://www.linkedin.com/in/aayush-poudel-915007223/">
+            
+              <img src="/linkedin.svg" alt="Linkedin" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/aayblush/">
+      
+              <img src="/instagram.png" alt="Insta" />
+            </a>
+            <a target="_blank" href="https://github.com/aayushhh44">
+              <img src="/github.svg" alt="github" />
+            </a>
           </div>
         </div>
       </div>

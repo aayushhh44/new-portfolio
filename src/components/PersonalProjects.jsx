@@ -16,7 +16,11 @@ const PersonalProjects = () => {
           Object.entries(Projects).map(([key, pro]) => (
             <div key={key} className='flex w-full mt-8 md:w-1/2 md:p-8 gap-4 items-center'>
               <div className='bg-[#f8f8f8] p-4 xl:p-10 w-1/2'>
-                <img className='w-96 font-manrope  font-normal' src={pro.imageURL} alt={pro.name} />
+                <img loading='lazy' className='w-96 font-manrope  font-normal' src={pro.imageURL} alt={pro.name} />
+
+                <div>
+                  <p>React</p>
+                </div>
               </div>
               <div className='flex flex-col w-1/2 gap-2'>
                 <div className='flex items-center font-manrope font-bold'>
