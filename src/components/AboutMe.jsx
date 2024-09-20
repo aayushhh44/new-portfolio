@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <div className="sm:p-24">
+      <div className=" p-8 sm:p-24">
         <h1 className="font-manrope text-2xl font-extrabold flex">
           <span className="underline decoration-4 underline-offset-8">
             about
@@ -15,10 +15,10 @@ const AboutMe = () => {
           <span></span>
         </h1>
 
-        <div className="flex items-center p-16">
+        <div className="flex flex-col sm:flex-row items-center sm:p-16">
           <img className="w-48" src="/image1.png" alt="" />
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-8 sm:gap-2">
             <h1 className="font-normal font-manrope text-2xl">Aayush Poudel</h1>
             <p className="font-manrope font-thin">
               I'm more than one in love for Front-End. My experience with
@@ -28,7 +28,7 @@ const AboutMe = () => {
               quiet interior of São Paulo, Brazil.
             </p>
 
-            <div className="flex gap-2 font-manrope mt-2">
+            <div className="flex gap-2 font-manrope my-2 sm:my-6">
               <p className="cursor-pointer hover:font-semibold">INSTAGRAM</p>
               <p className="cursor-pointer hover:font-semibold">GITHUB</p>
               <p className="cursor-pointer hover:font-semibold">EMAIL</p>
@@ -86,8 +86,8 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="flex mt-16 justify-between">
-          <div className="border w-1/3 flex rounded-xl p-4">
+        <div className="flex flex-col gap-4 sm:flex-row mt-16 justify-between">
+          <div className="border w-full sm:w-1/3 flex rounded-xl p-4">
             <hr className="w-[2px] h-48 bg-gray-300 mr-4" />
             <div className="flex flex-col gap-2">
               <p className="font-manrope font-bold">
@@ -101,7 +101,7 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className="border w-1/3 flex rounded-xl p-4">
+          <div className="border w-full sm:w-1/3 flex rounded-xl p-4">
             <hr className="w-[2px] h-48 bg-gray-300 mr-4" />
             <div className="flex flex-col gap-2">
               <p className="font-manrope font-bold">I've experience on</p>
@@ -113,7 +113,7 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className="border w-1/4 flex rounded-xl p-4">
+          <div className="border w-full sm:w-1/4 flex rounded-xl p-4">
             <hr className="w-[2px] h-60 bg-gray-300 mr-4" />
             <div className="flex flex-col gap-2">
               <p className="font-manrope font-bold">I work and Study about</p>

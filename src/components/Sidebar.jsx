@@ -5,7 +5,7 @@ const Sidebar = () => {
 
   return (
     
-    <nav className="ml-16 mt-32 left-12 top-8 h-full w-44 flex flex-col justify-center">
+    <nav className="ml-8 sm:ml-12 mt-32 left-12 top-8 h-full w-44 flex flex-col justify-center">
       {menuItems.map((item, index) => (
         <a
           key={index}
