@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <div className=" p-8 sm:p-24">
+      <div className=" p-8 lg:p-24">
         <h1 className="font-manrope text-2xl font-extrabold flex">
           <span className="underline decoration-4 underline-offset-8">
             about
