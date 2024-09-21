@@ -35,10 +35,10 @@ const Index = () => {
       <button onClick={() => navigate('/')}  className='p-8 underline underline-offset-4'>back</button>
       <div className="max-w-2xl mx-auto px-4 ">
         <main className="mt-12 space-y-16">
-          <div className="text-center mb-12">
+          {/* <div className="text-center mb-12">
             <h2 className="text-3xl font-manrope font-bold text-gray-800 mb-4">Latest Posts</h2>
             <div className="w-24 h-1 bg-gray-800 mx-auto"></div>
-          </div>
+          </div> */}
           {blogPosts.map((post) => (
             <BlogPost key={post.id} {...post} />
           ))}
