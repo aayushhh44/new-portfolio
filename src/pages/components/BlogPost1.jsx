@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { FaXTwitter } from "react-icons/fa6";
+
+
 
 const BlogPost1 = () => {
   const { id } = useParams();
   
+  const [likes, setLikes] = useState(0); 
+
   const post = {
     title: "The Art of Slow Living",
     date: "Sep 21, 2024",
     content: "In a world that's always rushing, there's beauty in taking things slow...",
     timeToRead: "5 min read"
+  };
+
+  const postUrl = `${window.location.origin}/post/${id}`;
+  const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(postUrl)}&text=${encodeURIComponent(post.title)}`;
+  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`;
+  const linkedInUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(postUrl)}&title=${encodeURIComponent(post.title)}`;
+  const emailUrl = `mailto:?subject=Check out this post: ${encodeURIComponent(post.title)}&body=Read it here: ${encodeURIComponent(postUrl)}`;
+
+  const handleLike = () => {
+    setLikes(likes + 1);
   };
 
   return (
@@ -26,6 +41,34 @@ const BlogPost1 = () => {
               <p>{post.content}</p>
             </div>
           </article>
+
+          
+          <div className="mt-8 space-x-4">
+            <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
+              <button className="font-manrope">Share on Twitter</button>
+              
+            </a>
+            <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+              <button className="font-manrope">Share on Facebook</button>
+            </a>
+            <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
+              <button className="font-manrope">Share on LinkedIn</button>
+            </a>
+            <a href={emailUrl}>
+              <button className="text-gray-600">Share via Email</button>
+            </a>
+          </div>
+
+      
+          <div className="mt-8">
+            <button 
+              onClick={handleLike}
+              className=" px-4 py-2 rounded  transition duration-300 ease-in-out"
+            >
+              👍 {likes}
+            </button>
+          </div>
+
           <Link 
             to="/blog" 
             className="inline-block mt-12 px-6 py-2 border-2 border-gray-800 text-sm font-medium text-gray-800 hover:bg-gray-800 hover:text-white transition duration-300 ease-in-out rounded-none relative overflow-hidden group"
