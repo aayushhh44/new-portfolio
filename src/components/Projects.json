@@ -33,7 +33,7 @@
     "project7": {
       "name": "Personal Portfolio",
       "imageURL": "/personal.png",
-      "details": "This is my portfolio site created after learning the basics of React.",
+      "details": "This is my portfolio site created using React.",
       "demoLink": "https://my-portfolio-6ek.pages.dev/",
       "githubLink": "https://github.com/aayushhh44/My-Portfolio"
     }

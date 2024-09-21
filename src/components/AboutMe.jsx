@@ -26,8 +26,7 @@ const AboutMe = () => {
               working with full-stack projects using the MERN stack. My goal is
               to build responsive and user-friendly interfaces that look great
               on any device. I'm also learning new technologies like Web3 and
-              Solidity to improve my skills. I enjoy working with others and
-              always aim to deliver the best results in my projects.
+              Solidity. 
             </p>
 
             <div className="flex gap-2 font-manrope my-2 sm:my-6">
