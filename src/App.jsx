@@ -1,22 +1,26 @@
 import React from 'react'
-import Topbar from './components/Topbar'
-import Sidebar from './components/Sidebar'
-import Center from './components/Center'
+
 import FirstPage from './pages/FirstPage'
-import PersonalProjects from './components/PersonalProjects'
-import AboutMe from './components/AboutMe'
-import ContactMe from './components/ContactMe'
-import Footer from './components/Footer'
+
+import { Routes, Route} from 'react-router-dom';
+import BlogPost from './pages/components/BlogPost';
+import BlogPost1 from './pages/components/BlogPost1';
+import Index from './pages/components/Index';
+// import BlogPost from './pages/components/BlogPost1'
 
 const App = () => {
   return (
     <div>
-        <FirstPage />
-        <hr/>
-        <PersonalProjects/>
-        <AboutMe/>
-        <ContactMe/>
-        <Footer/>
+      <Routes>
+        
+
+        {/* <FirstPage /> */}
+       <Route path='/' element={<FirstPage/>} />
+       <Route path="/blog" element={<Index />} />
+       <Route path="/blog/:id" element={<BlogPost1 />} />
+        </Routes>
+
+     
     </div>
   )
 }

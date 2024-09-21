@@ -21,38 +21,40 @@ const AboutMe = () => {
           <div className="flex flex-col gap-8 sm:gap-2">
             <h1 className="font-normal font-manrope text-2xl">Aayush Poudel</h1>
             <p className="font-manrope font-thin">
-  I'm Aayush Poudel, a front-end developer who enjoys creating clean and easy-to-use websites. 
-  I focus on React and have experience working with full-stack projects using the MERN stack. 
-  My goal is to build responsive and user-friendly interfaces that look great on any device. 
-  I'm also learning new technologies like Web3 and Solidity to improve my skills. 
-  I enjoy working with others and always aim to deliver the best results in my projects.
-</p>
-
+              I'm Aayush Poudel, a front-end developer who enjoys creating clean
+              and easy-to-use websites. I focus on React and have experience
+              working with full-stack projects using the MERN stack. My goal is
+              to build responsive and user-friendly interfaces that look great
+              on any device. I'm also learning new technologies like Web3 and
+              Solidity to improve my skills. I enjoy working with others and
+              always aim to deliver the best results in my projects.
+            </p>
 
             <div className="flex gap-2 font-manrope my-2 sm:my-6">
-              <p className="cursor-pointer hover:font-semibold">INSTAGRAM</p>
-              <p className="cursor-pointer hover:font-semibold">GITHUB</p>
-              <p className="cursor-pointer hover:font-semibold">EMAIL</p>
-            </div>
+              <a href="https://www.instagram.com/aayblush/" className="cursor-pointer hover:font-semibold">INSTAGRAM</a>
+              <a href="https://github.com/aayushhh44" className="cursor-pointer hover:font-semibold">GITHUB</a>
+              <a href="mailto:example@example.com" className="cursor-pointer hover:font-semibold">EMAIL</a>
+              </div>
           </div>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div className="border rounded-lg flex gap-2 items-center justify-between p-2">
             <img className="w-8" src="/webdesigns.svg" />
-            <hr className="w-px h-16 bg-gray-300 mx-4" />
+            <hr className="w-px h-full bg-gray-300 mx-2 sm:mx-4" />
 
             <div className="flex flex-col gap-1">
               <p className=" font-manrope font-semibold">HTML & CSS</p>
               <p className="font-manrope font-light text-xs">
-                I create responsive websites with fast loading and optimized design.
+                I create responsive websites with fast loading and optimized
+                design.
               </p>
             </div>
           </div>
 
-          <div className="border rounded-lg items-center flex gap-2 justify-between p-2">
+          <div className="border rounded-lg items-center flex  justify-between p-2">
             <img className="w-8" src="/react1.svg" />
-            <hr className="w-px h-16 bg-gray-300 mx-4" />
+            <hr className="w-px h-full bg-gray-300 mx-2 sm:mx-4" />
 
             <div className="flex flex-col gap-1">
               <p className=" font-manrope font-semibold">React.js</p>
@@ -62,24 +64,27 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className="border rounded-lg items-center flex gap-2 justify-between p-2">
+          <div className="border rounded-lg items-center flex justify-between p-2">
             <img className="w-8" src="/wordpress.svg" />
-            <hr className="w-px h-16 bg-gray-300 mx-4" />
+            <hr className="w-px h-full bg-gray-300 mx-2 sm:mx-4" />
 
             <div className="flex flex-col gap-1">
               <p className=" font-manrope font-semibold">Backend Development</p>
               <p className="font-manrope font-light text-xs">
-                Building efficient server-side applications using Node.js and Express.
+                Building efficient server-side applications using Node.js and
+                Express.
               </p>
             </div>
           </div>
 
-          <div className="border rounded-lg items-center flex gap-2 justify-between p-2">
+          <div className="border rounded-lg items-center flex justify-between p-2">
             <img className="w-8" src="/react1.svg" />
-            <hr className="w-px h-16 bg-gray-300 mx-4" />
+            <hr className="w-px h-full bg-gray-300 mx-2 sm:mx-4" />
 
             <div className="flex flex-col gap-1">
-              <p className=" font-manrope font-semibold">Full-Stack Development</p>
+              <p className=" font-manrope font-semibold">
+                Full-Stack Development
+              </p>
               <p className="font-manrope font-light text-xs">
                 Creating scalable and maintainable full-stack applications.
               </p>
@@ -91,7 +96,9 @@ const AboutMe = () => {
           <div className="border w-full sm:w-1/3 flex rounded-xl p-4">
             <hr className="w-[2px] h-48 bg-gray-300 mr-4" />
             <div className="flex flex-col gap-2">
-              <p className="font-manrope font-bold">I've had experiences with</p>
+              <p className="font-manrope font-bold">
+                I've had experiences with
+              </p>
               <p className="font-light font-manrope">Firebase Database</p>
               <p className="font-light font-manrope">MYSQL Database</p>
               <p className="font-light font-manrope">GIT, GitHub</p>
@@ -107,12 +114,14 @@ const AboutMe = () => {
               <p className="font-light font-manrope">HTML5 & CSS3</p>
               <p className="font-light font-manrope">JavaScript Development</p>
               <p className="font-light font-manrope">MongoDB & Node.js</p>
-              <p className="font-light font-manrope">React.js & Front-End Design</p>
+              <p className="font-light font-manrope">
+                React.js & Front-End Design
+              </p>
             </div>
           </div>
 
           <div className="border w-full sm:w-1/4 flex rounded-xl p-4">
-            <hr className="w-[2px] h-60 bg-gray-300 mr-4" />
+            <hr className="w-[2px] h-44 bg-gray-300 mr-4" />
             <div className="flex flex-col gap-2">
               <p className="font-manrope font-bold">I work and Study about</p>
               <p className="font-light font-manrope">React.js</p>
