@@ -11,7 +11,7 @@
     "Project3": {
       "name": "Aayush Store",
       "imageURL": "/portfolio.png",
-      "details": "Aayush Store is the second project I developed after learning React. It's an e-commerce platform where users can browse and purchase various products",
+      "details": "Aayush Store is the project on which Im currently working. It's an e-commerce platform where users can browse and purchase various products. It consists of various features like add to cart, delete from the cart. Im currently working on admin and backend section.",
       "demoLink": "https://main--aayush-ecommercee.netlify.app/",
       "githubLink": ""
     },
