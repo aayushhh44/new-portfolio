@@ -8,9 +8,9 @@ const Topbar = () => {
 
         <div>
           <p className="text-lg font-manrope">
-            <span className="underline underline-offset-4">se</span>lf service
+            <span className="underline underline-offset-4">aa</span>ymongush
           </p>
-          <p className="text-sm font-manrope">20% OFF</p>
+          {/* <p className="text-sm font-manrope">20% OFF</p> */}
         </div>
       </div>
     </div>

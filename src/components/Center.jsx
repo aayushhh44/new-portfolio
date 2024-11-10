@@ -10,7 +10,7 @@ const Center = () => {
       </div>
 
       <div className="absolute right-0 top-1 sm:top-28 h-screen flex flex-col justify-center">
-        <p className="transform cursor-pointer font-manrope font-bold -rotate-90 origin-left whitespace-nowrap text-gray-700 hover:text-black transition-colors duration-300 mb-16">
+        <p className="transform hidden sm:block cursor-pointer font-manrope font-bold -rotate-90 origin-left whitespace-nowrap text-gray-700 hover:text-black transition-colors duration-300 mb-16">
           dark mode.
         </p>
       </div>
