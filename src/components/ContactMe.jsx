@@ -10,7 +10,7 @@ const ContactMe = () => {
           </h1>
 
           <div className="flex justify-center mt-12 gap-24">
-            <a target="_blank" href="https://www.linkedin.com/in/aayush-poudel-915007223/">
+            <a target="_blank" href="/">
             
               <img src="/linkedin.svg" alt="Linkedin" />
             </a>

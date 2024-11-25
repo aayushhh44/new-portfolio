@@ -5,7 +5,6 @@ const Topbar = () => {
     <div className="p-8">
       <div className="flex justify-between">
         <h1 className="font-manrope text-2xl font-extrabold">aayush.</h1>
-
         <div>
           <p className="text-lg font-manrope">
             <span className="underline underline-offset-4">aa</span>ymongush
